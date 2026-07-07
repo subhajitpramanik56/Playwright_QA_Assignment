@@ -1,0 +1,8 @@
+Test Case ID,Module,Scenario,Preconditions,Test Steps,Expected Result,Priority,Status
+TC-001,Login,Valid credentials,Application is reachable,"Open login page; enter student; enter Password123; click submit","User reaches the authenticated page",High,Planned
+TC-002,Login,Enter key submission,Application is reachable,"Open login page; enter student; enter Password123; press Enter","User reaches the authenticated page",High,Planned
+TC-003,Login,Invalid credentials,Application is reachable,"Open login page; enter invalid-user; enter wrong-password; click submit","Validation error is shown",High,Planned
+TC-004,Login,Blank username,Application is reachable,"Open login page; leave username blank; enter Password123; click submit","Validation warning is shown",Medium,Planned
+TC-005,Login,Blank password,Application is reachable,"Open login page; enter student; leave password blank; click submit","Validation warning is shown",Medium,Planned
+TC-006,Login,Refresh after login,Application is reachable,"Log in successfully; refresh the page","Appropriate page state is maintained",Medium,Planned
+TC-007,UI,Screenshot capture,Application is reachable,"Execute automation flow","Screenshots are stored in screenshots/",Medium,Planned
